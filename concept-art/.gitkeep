@@ -1,0 +1,4 @@
+# This file ensures the concept-art directory is tracked in git
+# even when the actual image files (mascot.png, ui-mockup.png) are not yet uploaded
+
+# Remove this file once the actual concept art images are added

@@ -78,6 +78,18 @@ Function	Description
 
 ---
 
+🎨 Concept Art & Design
+
+The visual identity of Blanket AI Core is built around a friendly, approachable aesthetic that promotes emotional well-being:
+
+**🐾 Mascot Character**: A cute winking bat-cat hybrid with green wings serves as the primary companion. This character embodies the supportive, non-threatening nature of the AI assistant.
+
+**📱 Interface Design**: The app interface features calming colors and intuitive navigation, with clearly labeled sections for Chat, Memory, Habitat, and core Blanket functionality.
+
+*View detailed concept art specifications and design documentation in the [`concept-art/`](./concept-art/) directory.*
+
+---
+
 🧰 Core Tech Stack
 
 Component	Tech Used
@@ -102,6 +114,10 @@ iESA_Blanket_Core_ai/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
+├── concept-art/                     # 🎨 Concept art and design assets
+│   ├── README.md                   # Design documentation
+│   ├── mascot.png                  # Bat-cat mascot character
+│   └── ui-mockup.png              # App interface mockup
 ├── client/
 │   ├── App.jsx
 │   ├── index.html
