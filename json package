@@ -1,0 +1,18 @@
+{
+  "name": "iesa-gui",
+  "version": "1.0.0",
+  "description": "iESA Blanket Core GUI - Magical Forest Frontend",
+  "main": "App.jsx",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
