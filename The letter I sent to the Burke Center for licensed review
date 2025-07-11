@@ -1,0 +1,118 @@
+---
+
+# iESA-Blanket-Core-ai — Berk Center Submission Packet
+
+## Project Overview
+
+**Project Title:** iESA-Blanket-Core-ai
+**Type:** AI-based emotional support planner + gamified GUI for mental health resilience
+**Submitted by:** X
+**Date:** July 12, 2025
+
+### Summary
+
+iESA (Internet Emotional Support Animal) is a digital companion interface connected to a life-planner AI named Blanket. Designed for neurodivergent and disabled users, the system provides task tracking, therapeutic journaling, mood monitoring, timed medication refill call prompting notifications, and emotional engagement via a Neopet/Webkinz-style pet.
+
+Blanket runs quietly in the background while iESA handles daily interaction. Real-life goals are rewarded in-game. Memory summaries can be printed and optionally shared with clinicians. All data is local by default and protected with 2FA and a "killcode" system.
+
+This project is in early development and is being submitted for clinical feedback, risk review, ethical support, and legal clarity on any required local, national, or international compliance—particularly regarding the EU AI Act, HIPAA, GDPR, and other privacy laws that may apply to the processing, storage, and presentation of personal mental health data.
+
+Note: The EU AI Act, passed in 2024, classifies General Purpose AI (like GPT-based systems) and health-adjacent tools (like digital assistants for mental health) as regulated risk systems. Any system that processes health-related data, provides behavioral nudges, or mimics therapy must follow strict rules for safety, transparency, data control, opt-in sharing, and human oversight.
+
+Additionally, various global privacy laws may apply to this system if used across jurisdictions:
+
+* HIPAA (United States) – Any system handling protected health information must ensure secure, authorized, and traceable access.
+* GDPR (Europe) – All personal data must be processed lawfully, transparently, and only for specific purposes with informed consent. Users must have access to their data and the ability to correct or erase it.
+* CCPA (California) – Users must be able to access, delete, and prevent sale of their data.
+* PIPEDA (Canada) – Personal information must be stored securely and only used with meaningful consent.
+* LGPD (Brazil) – Requires lawful basis for processing, data minimization, and transparency.
+* Privacy Act (Australia) – Special provisions for health data, user rights, and security obligations.
+
+While this tool is not commercial and stores all data locally, we are seeking to confirm that it remains in compliance with these frameworks and to determine what, if any, legal oversight or clinical guidance is required to pilot it in a support context. Privacy, compliance and humanitarian dignity are top priorities. Always. No matter what state or country I'm in.
+
+---
+
+## Feedback Request Letter
+
+To whom it may intrigue,
+
+I am a patient developing a self-help and digital mental health support tool called iESA-Blanket-Core-ai. It is designed as a planner, journaling assistant, and emotional support interface for users like me who struggle with executive function, motivation, and self-care.
+
+The system uses an animated pet avatar to deliver rewards for real-world progress, encouragement through GPT-powered messages, and optional printable memory summaries for therapy sessions. It never replaces clinical care, but it helps track, summarize, and reflect — especially between appointments.
+
+I am submitting this for your review to help ensure it:
+
+* Does not cause psychological harm or dependency
+* Provides helpful reinforcement and not shame
+* Uses appropriate tone/language in therapeutic prompts
+* Respects clinician boundaries and supports—not burdens—therapy
+* Meets any and all legal, ethical, and medical thresholds for:
+
+  * Private or clinical use by disabled patients
+  * Safe pilot demonstrations
+  * Compliance with HIPAA, EU AI Act, GDPR, and related laws for safety, transparency, and data protection
+
+I've supplied a brief summary of applicable laws above for context. I’ve also attached a one-page summary and an optional feedback form in case that format is easier.
+
+Thank you for considering this. Even a brief note or verbal response would help guide me toward building something safe and useful.
+
+— Patient at Berk Center
+(Feel free to leave this anonymous, or talk to me privately.)
+
+---
+
+## Optional Clinical Feedback Form
+
+How does this system strike you as a support tool?
+
+* [ ] Helpful  \[ ] Neutral  \[ ] Potentially Harmful
+
+Are there any elements that concern you ethically or clinically?
+
+\[Write here]
+
+Would this be helpful in preparing clients for sessions or building continuity of care?
+
+\[Write here]
+
+Does the reward system (gamified coins, animated pet) feel healthy, infantilizing, or something else?
+
+\[Write here]
+
+Do you have any suggestions for tone, features, or language improvements?
+
+\[Write here]
+
+Would you be willing to be contacted for further review?
+
+* [ ] Yes  \[ ] No  \[ ] Verbal only
+
+Is any additional review, license, or approval required for this project to be safely used in practice or shared with the public?
+
+* Please specify if any legal oversight is needed per:
+
+  * HIPAA (U.S.)
+  * EU AI Act (General Purpose AI and Health-Influencing Use Cases)
+  * GDPR (EU)
+  * PIPEDA (Canada)
+  * LGPD (Brazil)
+  * CCPA (California)
+  * Privacy Act (Australia)
+  * Any state/local mental health tech laws
+
+\[Write here]
+
+---
+
+### Attachments to Include
+
+* README.md of the iESA GUI (overview, features, privacy model)
+* Screenshots or working demo (optional)
+* Contact method (replace with 'X' to anonymize if desired)
+
+---
+
+Thank you again for supporting tools that grow from lived experience. This project will only be shared if reviewed and approved by qualified professionals.
+
+
+Response pending as of the July 10th
