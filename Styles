@@ -1,0 +1,63 @@
+// iESA-GUI-Frontend // Magical Forest Themed GUI for iESA-Blanket-Core-ai // React-based interface with animated, purring iEsa pet using free assets
+
+import React, { useEffect, useRef, useState } from 'react'; import { createRoot } from 'react-dom/client'; import './styles.css'; import purrSound from './assets/sfx/cat_purr_free.mp3';
+
+const App = () => { const petRef = useRef(null); const audioRef = useRef(null); const [rubLeg, setRubLeg] = useState(false);
+
+useEffect(() => { const breathing = petRef.current.animate([ { transform: 'scale(1)' }, { transform: 'scale(1.03)' }, { transform: 'scale(1)' } ], { duration: 4000, iterations: Infinity, easing: 'ease-in-out' });
+
+if (audioRef.current) {
+  audioRef.current.volume = 0.1;
+  audioRef.current.loop = true;
+  audioRef.current.play();
+}
+
+let idleTimer = setTimeout(() => setRubLeg(true), 15000);
+const resetIdle = () => {
+  setRubLeg(false);
+  clearTimeout(idleTimer);
+  idleTimer = setTimeout(() => setRubLeg(true), 15000);
+};
+
+window.addEventListener('mousemove', resetIdle);
+window.addEventListener('keydown', resetIdle);
+
+return () => {
+  breathing.cancel();
+  clearTimeout(idleTimer);
+  window.removeEventListener('mousemove', resetIdle);
+  window.removeEventListener('keydown', resetIdle);
+};
+
+}, []);
+
+return ( <div className="app-container"> <header className="top-bar"> <div className="lifepoints">💰 88</div> <div className="logo">♡ Blanket Core</div> <div className="productivity">📊 Productivity</div> </header>
+
+<main className="pet-screen">
+    <div className="pet-name">$iESA</div>
+    <div className="pet-frame">
+      <img
+        src={rubLeg ? "/assets/pets/default_cat/cat_rub_free.gif" : "/assets/pets/default_cat/cat_blink_free.gif"}
+        alt="iEsa pet"
+        className="pet-avatar tail-animate"
+        ref={petRef}
+      />
+      <audio src={purrSound} ref={audioRef} />
+    </div>
+
+    <div className="button-grid">
+      <button className="app-button chat">💬 Chat</button>
+      <button className="app-button memory">🧠 Memory</button>
+      <button className="app-button spoil">🛍️ Spoil Me!</button>
+      <button className="app-button records">📄 Records</button>
+      <button className="app-button settings">⚙️ Settings</button>
+      <button className="app-button habitat">🛖 Habitat</button>
+      <button className="app-button calendar">📅 Calendar</button>
+    </div>
+  </main>
+</div>
+
+); };
+
+const container = document.getElementById('root'); const root = createRoot(container); root.render(<App />);
+
