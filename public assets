@@ -1,0 +1,5 @@
+assets/
+├── bg/magic-forest.jpg
+├── pets/default_cat/cat_blink_free.gif
+├── pets/default_cat/cat_rub_free.gif
+└── sfx/cat_purr_free.mp3
